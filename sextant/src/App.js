@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Exhibit from "./components/Exhibit";
 import PublicIP from "./components/PublicIP";
+import Latency from "./components/Latency";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       </Exhibit>
 
       <Exhibit title="Latency">
-        <p>Loading...</p>
+        <Latency />
       </Exhibit>
     </div>
   );
